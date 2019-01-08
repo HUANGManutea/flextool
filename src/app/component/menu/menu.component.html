@@ -1,0 +1,3 @@
+<div cdkDropList fxLayout="column" fxLayoutAlign="start start" (cdkDropListDropped)="drop($event)">
+  <button mat-button *ngFor="let item of items" cdkDrag>{{item.name}}</button>
+</div>

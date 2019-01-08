@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+body, html {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "src/app/component/item/item.component.scss";
+@import "src/app/component/menu/menu.component.scss";
+@import "src/app/component/main/main.component.scss";
+@import "src/app/component/render/render.component.scss";

@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'flextool';
+  public quantity = [1,1,1,1,1,1,1,1,1];
 }
